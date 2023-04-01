@@ -1,0 +1,4 @@
+body{background-image: url(/images/images6.jpeg);
+    background-attachment: fixed;background-size: cover;}
+    #button{background-color: aqua;border-radius: 20px;padding: 20px;}
+    .container button{border-radius: 20px;}

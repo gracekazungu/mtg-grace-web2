@@ -1,0 +1,5 @@
+#esse{float: left;width: 40%;}
+body{background-image: url(/images/logo.png);background-attachment: fixed;background-size: cover;}
+#paragraph{font-size: larger;font-family: 'Courier New', Courier, monospace;}
+#button{background-color: aqua;border-radius: 20px;padding: 20px;}
+.meet{margin-left: 10%;margin-right: 10%;}

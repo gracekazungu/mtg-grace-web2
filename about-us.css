@@ -1,0 +1,29 @@
+#img{float: left;width: 10%;}
+body{background-image: url(/images/logo.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#button{background-color: aqua;border-radius: 20px;padding: 20px;}
+
+
+#director{float: left;width: 10%;}
+#judy{float: left;width: 10%;}
+#dominic{float: left; width: 10%;}
+#beatrice{float: left; width: 10%;}
+#robaa{float: left;width: 10%;}
+#irene{float: left;width: 10%;}
+#janet{float: left;width: 10%;}
+#matilda{float: left;width: 10%;}
+#kitavi{float: left;width: 10%;}
+#charo{float: left;width: 10%;}
+#fatma{float: left;width: 10%;}
+#frida{float: left;width: 10%;}
+#mercy{float: left;width: 10%;}
+#konde{float: left;width: 10%;}
+#dama{float: left;width: 10%;}
+#halima{float: left;width: 10%;}
+#elvina{float: left;width: 10%;}
+#tibu{float: left;width: 10%;}
+.container{margin-left: 10%;margin-right: 10%;padding: 20px;}
+#direct{padding: 2opx;}
+.content{margin-left: 10%;margin-right: 10%;}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mtg Web</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<style>
+    /* #img{
+        float: right;
+        width: 20%;
+    }
+    .body{background-image: url(/images/logo.png);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    #button{
+        background-color: aqua;
+        border-radius: 40px;
+        color: aliceblue;
+        padding: 20px 20px ;
+    } */
+    
+</style>
+<body class="body">
+    <div class="container">
+    <img src="/images/logo.png" id="img">
+    <h1>MTG Registration Form</h1>
+    <label>FirstName</label><br>
+    <input type="text" placeholder="Enter FirstName"><br><br>
+    <label>LastName</label><br>
+    <input type="text" placeholder="Enter LastName"><br><br>
+    <label>D.O.B</label><br>
+    <input type="date"><br><br>
+    <label>Which year did you first register with MTG</label>
+    <br>
+    <input type="month"><br><br>
+    <label>Division</label>
+    <tr>
+        <td>
+            <select>
+                <option></option>
+                <option>Bahari</option>
+                <option>Bamba</option>
+                <option>Vitengeni</option>
+                <option>Ganze</option>
+                <option>Kaloleni</option>
+                <option>TanaRiver</option>
+                <option>Mombasa</option>
+                <option>Kwale</option>
+                </select>
+        </td>
+    </tr><br><br>
+    <label>Field</label>
+    <tr>
+        <td>
+            <select>
+                <option></option>
+                <option>Mdzongoloni</option>
+                <option>Bahati</option>
+                <option>Mnarani</option>
+                <option>Matsangoni</option>
+                <option>Mwakuhenga</option>
+                <option>Ngamani</option>
+                </select>
+        </td>
+    </tr><br><br>
+    <label>What have you be trained since you join MTG</label><br>
+    <tr>
+        <td>
+            <select>
+                <option></option>
+                <option>coach</option>
+                <option>referee</option>
+                <option>field leader</option>
+                <option>first aider</option>
+                <option>peer educator</option>
+                <option>Safe guarder</option>
+                <option>youth peer provider</option>
+                <option>tackle africa coach</option>
+                <option>young leader</option>
+                <option>MCCN member</option>
+                 </select>
+        </td>
+    </tr><br><br>
+    <tr>
+        <td>
+            Is your father alive?
+        </td>
+        <td>
+            <label class="container">Yes
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+              <label class="container">No
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+           </td>
+    </tr><br><br>
+    <p>If Yes above, fill the following</p><br>
+    <label>Fathers fullName</label><br>
+    <input type="text"><br><br>
+    <label>Fathers Id Number</label><br>
+    <input type="text"><br><br>
+    <label>How many years is your father</label><br>
+    <input type="number"><br><br>
+    <tr>
+        <td>
+            Is your mother alive?
+        </td>
+        <td>
+            <label class="container">Yes
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+              <label class="container">No
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+           </td>
+    </tr><br><br>
+    <p>If Yes above, fill the following</p><br>
+    <label>Mothers fullName</label><br>
+    <input type="text"><br><br>
+    <label>Mothers Id Number</label><br>
+    <input type="text"><br><br>
+    <label>How many years is your mother</label><br>
+    <input type="number"><br><br>
+<label>PhoneNumber</label><br>
+<input type="tel">
+    <p>For in school</p><br>
+    <label>Which class are you in</label>
+    <tr>
+        <td>
+            <select>
+                <option></option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>form 1</option>
+                <option>form 2</option>
+                <option>form 3</option>
+                <option>form 4</option>
+                 </select>
+        </td>
+    </tr><br><br>
+    <label>Which school are studying</label>
+    <br>
+    <input type="text" placeholder="Enter school"><br><br>
+    <p>For outschool</p>
+    <label>Which is your highest level of Education</label><br>
+    <tr>
+        <td>
+            <select>
+                <option></option>
+                <option>Primary</option>
+                <option>Secondary</option>
+                <option>University/College</option>
+            </select>
+        </td>
+    </tr><br><br>
+    <tr>
+    <label>which year did you dropped out of school</label>
+    <br>
+    <input type="month"><br><br>
+    <tr>
+        <td>
+            Are you married
+        </td>
+        <td>
+            <label class="container">Yes
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+              <label class="container">No
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+           </td>
+    </tr><br><br>
+    <tr>
+        <td>
+            Do you have children?
+        </td>
+        <td>
+            <label class="container">Yes
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+            </label>
+              <label class="container">No
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>
+           </td>
+    </tr><br><br>
+    <label>If yes above,how many children do you have</label><br>
+<input type="number"><br><br>
+<tr>
+    <td>
+        Do you save?
+    </td>
+    <td>
+        <label class="container">Yes
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+        </label>
+          <label class="container">No
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+       </td>
+       </tr><br><br>
+       <label>If yes above, how often do you save?</label><br>
+       <tr>
+           <td>
+               <select>
+                <option></option>
+                   <option>Daily</option>
+                   <option>weekly</option>
+                   <option>Monthly</option>
+                   <option>Yearly</option>
+               </select>
+           </td>
+       </tr><br><br>
+<label>Whom do you live with?</label><br>
+<tr>
+    <td>
+        <select>
+            <option></option>
+            <option>Both parents</option>
+            <option>Father only</option>
+            <option>Mother only</option>
+            <option>Guardian</option>
+            <option>Husband</option>
+        </select>
+    </td>
+</tr><br><br>
+<label>PhoneNumber</label><br>
+<input type="tel"><br><br>
+<label>Submit your form
+    <button id="button"><a href="tables.html">submit</a></button>
+    <button id="button"><a href="index.html">Go back</a></button>
+</div>
+</body>
+</html>

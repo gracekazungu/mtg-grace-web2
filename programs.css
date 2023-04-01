@@ -1,0 +1,12 @@
+#football{float: left;width: 40%;}
+#education{float: left;width: 40%;}
+#livelihood{float: left;width: 20%;}
+#live{float: left;width: 20%;}
+#liveli{float: left;width: 20%;}
+#health{float: left;width: 30%;}
+#leader{float: left;width: 30%;}
+#ymep{float: left;width: 30%;}
+#child{float: left;width: 30%;}
+body{background-image: url(logo.png);background-attachment: fixed;background-size: cover;}
+#button{background-color: aqua;border-radius: 20px;padding: 20px;}
+.content{margin-left: 10%;margin-right: 10%;}

@@ -1,0 +1,12 @@
+.body{
+    background-image: url(/images/images7.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: inherit;
+    }
+    #img{
+        float: right;
+        width: 30%;
+    }
+    .container{margin-left: 10%;margin-right: 10%;}
